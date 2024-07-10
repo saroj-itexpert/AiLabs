@@ -38,13 +38,8 @@ graph = {
 }
 
 # Driver Code
-print("Following is the Breadth-First Search")
 start_node = 'A'
-goal_node = 'I'
+goal_node = 'D'
+print("Following is the Breadth-First Search path:")
 path = bfs(graph, start_node,goal_node)
-
-if path:
-    print(" -> ".join(path))
-else:
-    print("No path found from {} to {}".format(start_node, goal_node))
 
