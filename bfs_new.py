@@ -43,7 +43,7 @@ graph = {
 
 # Driver code
 start_node = 'A'
-goal_node = 'I'
+goal_node = 'Z'
 print("Following is the Breadth-First Search path from {} to {}:".format(start_node, goal_node))
 path = bfs(graph, start_node, goal_node)
 
