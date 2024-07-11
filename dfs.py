@@ -1,4 +1,4 @@
-visited = set()
+visited = set() #creatr an empty ser 
 
 def dfs(visited, graph, node):
     if node not in visited:        
