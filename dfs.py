@@ -1,11 +1,12 @@
-visited = set()
+visited = set()  #Define a visited set which takes unique items in it
 
-def dfs(visited, graph, node):
-    if node not in visited:        
-        print(node)
-        visited.add(node)
-        for neighbour in graph[node]:
-            dfs(visited, graph, neighbour)
+#Recursive method to iterate through method
+def dfs(visited, graph, node):              #dfs method which takes in visited, graph and node as parameter
+    if node not in visited:                 #checks if the node is already in the visited set or not
+        print(node)                         #print the path with the nodes
+        visited.add(node)                   #if not in visited node then add the current node in visisted set.
+        for neighbour in graph[node]:       #for loop to traverse through each node's childs in graph dictionary
+            dfs(visited, graph, neighbour)  #recursion function to again call the dfs method to traverse the graph.
 
 
 # Using a Python dictionary to act as an adjacency list
