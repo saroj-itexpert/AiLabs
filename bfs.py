@@ -1,20 +1,19 @@
 def bfs(graph, start_node, goal_node):  # function for BFS
-   
     visited = set()  # set for visited nodes so that no any nodes are repeated.
     queue = []  # Initialize a queue
-
     if start_node == goal_node:
-        return [start_node]
-    
-    visited.add(start_node)
-    queue.append(start_node)
+        return start_node
+     
+    visited.add(start_node)# to add visited nodes of graph
+    queue.append(start_node) #append = add
+
     while queue:          # Creating loop to visit each node
         path = queue.pop(0)
         # print '->' after each node except the last one
         print(path, end='->' if path != f'{goal_node}' else '')
         if path == goal_node:
             return path
-
+     
         for neighbour in graph[path]:
             if neighbour not in visited:
                 visited.add(neighbour)
@@ -35,7 +34,7 @@ graph = {
 
 # Driver Code
 start_node = 'A'
-goal_node = 'D'
+goal_node = 'I'
 print("Following is the Breadth-First Search path:")
 bfs(graph, start_node,goal_node)
 
