@@ -1,5 +1,6 @@
-from pyamaze import maze, agent, textLabel
+from pyamaze import maze, agent, textLabel, COLOR
 from queue import PriorityQueue
+
 
 def h(cell1, cell2):
     x1,y1 = cell1
@@ -75,13 +76,13 @@ if __name__ == "__main__":
 
 
 
-    m = maze(10,20)
-    m.CreateMaze(loadMaze='aStardemo.csv')
+    m = maze(5,5)
+    m.CreateMaze()
     
     searchPath,aPath,fwdPath = aStar(m)
     a = agent(m, footprints=True, filled=True)
     b = agent(m,1,1, footprints=True, filled=True, goal=(m.rows,m.cols))
-    c = agent(m, footprints=True)
+    c = agent(m, footprints=True, color=COLOR.red)
     
     m.tracePath({a:searchPath}, delay=300)
     m.tracePath({b:aPath},delay=300)
