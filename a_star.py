@@ -7,6 +7,8 @@ def h(cell1, cell2):
     x2,y2 = cell2
 
     return abs(x1-x2) + abs(y1-y2)
+
+
 def aStar(m, start = None):
     if start is None:
         start = (m.rows, m.cols)
@@ -76,7 +78,7 @@ if __name__ == "__main__":
 
 
 
-    m = maze(5,5)
+    m = maze(10,20)
     m.CreateMaze()
     
     searchPath,aPath,fwdPath = aStar(m)
