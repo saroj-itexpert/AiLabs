@@ -48,17 +48,13 @@ def a_star_search(graph, start, goal):
 
         if current_node in closed_list:
             continue
-
         # Add current node to the closed list
         closed_list.add(current_node)
-
         # Path to current node
         path = path + [current_node]
-
         # Check if we have reached the goal
         if current_node == goal:
             return path, cost
-
         # Explore neighbors
         for neighbor, distance in graph[current_node].items():
             if neighbor not in closed_list:

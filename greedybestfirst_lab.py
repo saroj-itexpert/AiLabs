@@ -57,6 +57,7 @@ def greedy_best_first_search(graph, start, goal):
     closed_list = set()
 
     while open_list:
+        reversed
         # Get the node with the lowest heuristic value
         _, current_node, path = heapq.heappop(open_list)
 
