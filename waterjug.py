@@ -11,6 +11,15 @@ print("Capacities: (4, 3)")
 print("Goal state: (2, 0 or any number)")
 
 while j1 != 2:
+    print("Choose a rule to apply:")
+    print("1: Fill Jug X (if X is 0)")
+    print("2: Fill Jug Y (if Y is 0)")
+    print("3: Empty Jug X (if X > 0)")
+    print("4: Empty Jug Y (if Y > 0)")
+    print("5: Fill Jug Y from Jug X (if X + Y >= 3 and X > 0)")
+    print("6: Fill Jug X from Jug Y (if X + Y >= 4 and Y > 0)")
+    print("7: Empty Jug X into Jug Y (if X + Y <= 3 and X > 0)")
+    print("8: Empty Jug Y into Jug X (if X + Y <= 4 and Y > 0)")
     r = int(input("Enter the rule: "))
     if (r == 1):
         j1 = x
