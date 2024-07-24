@@ -20,32 +20,32 @@ while j1 != 2:
     r = int(input("Enter the rule: "))
 
     if r == 1:
-        j1 = x  # Fill Jug X to its capacity
+        j1 = x  # Fill Jug 1 to its capacity
     elif r == 2:
-        j2 = y  # Fill Jug Y to its capacity
+        j2 = y  # Fill Jug 2 to its capacity
     elif r == 3:
-        j1 = 0  # Empty Jug X
+        j1 = 0  # Empty Jug1
     elif r == 4:
-        j2 = 0  # Empty Jug Y
+        j2 = 0  # Empty Jug2
     elif r == 5 and j1 + j2 >= y and j1 > 0:
-        t = y - j2
-        j2 = y  # Fill Jug Y to its capacity
-        j1 = j1- t  # Reduce Jug X by the amount poured into Jug Y
-        if j1 < 0:
+        amount_to_pour = y - j2
+        j2 = y  # Fill Jug2 to its capacity
+        j1 = j1- amount_to_pour  # Reduce Jug1 by the amount poured into Jug2
+        if j1 < 0:  #if value of jug1 becomes negative we put it as 0.
             j1 = 0
     elif r == 6 and j1 + j2 >= x and j2 > 0:
-        t = x - j1
-        j1 = x  # Fill Jug X to its capacity
-        j2 = j2 - t  # Reduce Jug Y by the amount poured into Jug X
+        amount_to_pour = x - j1
+        j1 = x  # Fill Jug1 to its capacity
+        j2 = j2 - amount_to_pour  # Reduce Jug2 by the amount poured into Jug1
         if j2 < 0:
             j2 = 0
     elif r == 7 and j1 + j2 <= y and j1 > 0:
-        j2 = j2 + j1  # Pour all of Jug X into Jug Y
+        j2 = j2 + j1  # Pour all of Jug1 into Jug2
         j1 = 0
         if j2 > y:
             j2 = y
     elif r == 8 and j1 + j2 <= x and j2 > 0:
-        j1 = j1 + j2  # Pour all of Jug Y into Jug X
+        j1 = j1 + j2  # Pour all of Jug2 into Jug1
         j2 = 0
         if j1 > x:
             j1 = x
