@@ -1,0 +1,59 @@
+1. Weather Forecasting
+Rule 1: If the sky is cloudy and there is no wind, then it might rain.
+Rule 2: If the temperature is below 0°C and the sky is clear, then it might snow.
+Rule 3: If the temperature is above 30°C and there is no wind, then it might be a hot day.
+Rule 4: If the sky is clear and there is wind, then it might be a pleasant day.
+
+2. Eligibility for a Loan
+Rule 1: If the applicant's age is between 18 and 65 and they have a stable income, then they are eligible for a loan.
+Rule 2: If the applicant has a credit score above 700, then they are eligible for a loan.
+Rule 3: If the applicant has a criminal record, then they are not eligible for a loan.
+Rule 4: If the applicant has defaulted on a loan before, then they are not eligible for a loan.
+
+3. Simple Decision Making
+Rule 1: If the time is between 6 AM and 8 AM and it's a weekday, then it's time to go to work.
+Rule 2: If the time is between 12 PM and 1 PM, then it's time for lunch.
+Rule 3: If the time is between 9 PM and 10 PM, then it's time to go to bed.
+Rule 4: If it's the weekend and the weather is sunny, then go for a walk.
+
+4. Traffic Light Control
+Rule 1: If the light is red, then cars must stop.
+Rule 2: If the light is green, then cars can go.
+Rule 3: If the light is yellow, then cars must slow down and prepare to stop.
+Rule 4: If the pedestrian button is pressed, then the light will turn red after a short delay.
+
+5. Smart Home Automation
+Rule 1: If the temperature is below 18°C, then turn on the heater.
+Rule 2: If the temperature is above 25°C, then turn on the air conditioner.
+Rule 3: If it is dark outside and someone is at home, then turn on the lights.
+Rule 4: If the security system is armed and a door is opened, then sound the alarm.
+
+6. Exam Grading
+Rule 1: If the student's score is 90 or above, then the grade is A.
+Rule 2: If the student's score is between 80 and 89, then the grade is B.
+Rule 3: If the student's score is between 70 and 79, then the grade is C.
+Rule 4: If the student's score is below 70, then the grade is F.
+
+7. Travel Recommendation
+Rule 1: If the weather is sunny and the temperature is moderate, then go to the beach.
+Rule 2: If the weather is rainy and the temperature is cool, then visit a museum.
+Rule 3: If the weather is snowy and the temperature is cold, then go skiing.
+Rule 4: If the weather is hot and sunny, then go to a water park.
+
+8. Fitness Plan
+Rule 1: If the user wants to lose weight and has 30 minutes, then do cardio exercises.
+Rule 2: If the user wants to build muscle and has 1 hour, then do strength training.
+Rule 3: If the user wants to relax and has 15 minutes, then do yoga.
+Rule 4: If the user wants to increase flexibility and has 20 minutes, then do stretching exercises.
+
+9. Plant Watering System
+Rule 1: If the soil moisture is below 20% and the weather is sunny, then water the plants.
+Rule 2: If the soil moisture is above 20%, then do not water the plants.
+Rule 3: If it has rained in the last 24 hours, then do not water the plants.
+Rule 4: If the temperature is above 30°C and the soil moisture is below 30%, then water the plants.
+
+10. Restaurant Recommendation
+Rule 1: If the user likes Italian food and it's dinner time, then recommend an Italian restaurant.
+Rule 2: If the user is a vegetarian and it's lunchtime, then recommend a vegetarian restaurant.
+Rule 3: If the user wants fast food and it's late at night, then recommend a fast-food restaurant.
+Rule 4: If the user is on a diet and it's breakfast time, then recommend a healthy restaurant.
