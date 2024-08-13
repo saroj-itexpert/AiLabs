@@ -1,3 +1,28 @@
+    # Rule 1: If the patient has a fever and cough, then they may have the flu.
+    # Rule 2: If the patient has a headache and fever, then they may have a migraine.
+    # Rule 3: If the patient has a sore throat and cough, then they may have a cold.
+    # Rule 4: If the patient has a runny nose and sneezing, then they may have allergies.
+    # Default Rule: If no rules match, then the diagnosis is unknown.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1. Weather Forecasting
 Rule 1: If the sky is cloudy and there is no wind, then it might rain.
 Rule 2: If the temperature is below 0°C and the sky is clear, then it might snow.
@@ -55,5 +80,5 @@ Rule 4: If the temperature is above 30°C and the soil moisture is below 30%, th
 10. Restaurant Recommendation
 Rule 1: If the user likes Italian food and it's dinner time, then recommend an Italian restaurant.
 Rule 2: If the user is a vegetarian and it's lunchtime, then recommend a vegetarian restaurant.
-Rule 3: If the user wants fast food and it's late at night, then recommend a fast-food restaurant.
+Rule 3: If the user wants fast food and it's late at night, then recommend a Burger House.
 Rule 4: If the user is on a diet and it's breakfast time, then recommend a healthy restaurant.
